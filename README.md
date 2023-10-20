@@ -75,14 +75,12 @@ Here are some of the visualations that I have been using during the process.
 ![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/c682730b-803e-45ed-aca1-6fb9be98feda)
 
 
-```python
+### Distribution and Correlation Exploration
 
+Here are examples of using statistical methods to look at distribution of certain populations in my data and looking at the correlation of two factors using the knowledge of the distribution:
 
-```
-```python
+<img width="889" alt="Screenshot 2023-10-20 at 20 52 52" src="https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/c18f0bf3-c657-4b39-a0fd-c4a689ac19dc">
 
-```
-
-##
+<img width="870" alt="Screenshot 2023-10-20 at 20 53 55" src="https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/fe3f213a-9134-4051-9ede-5795e9409fa3">
 
 To gain a full understanding, please read the entirity of my project
