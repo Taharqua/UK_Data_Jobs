@@ -66,10 +66,11 @@ df.drop(['reference','salary_currency','date_posted', 'date_ending','country','s
 
 ### Data Visualisations 
 
-Here are some of the visualations that I have been using during the process.
+Before doing any statistical exploration, it is a good practise to understand the data and try to gather as many insights from it. 
+Some of the Exploratory Data Analysis plot are Histogram ( Graphically method to summarise the distribution of a univariate dataset), Distribution plot to represent the overall distribution of continuous data variables and quantile-quantile (QQ) plot to show if two data sets come from the same distribution.
 
 ![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/528acef5-b464-442b-ba9b-901766fbacd4)
-
+![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/2c08d866-42d9-43ca-bd9c-0108bb847042)
 ![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/c682730b-803e-45ed-aca1-6fb9be98feda)
 
 
