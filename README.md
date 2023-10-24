@@ -8,7 +8,7 @@ As someone who is looking to formally enter the Data Market, despite having expe
 
 I was able to use a lot of my knowledge with libraries such as Pandas, NumPy, and more; whilst, showing my understanding of distributions, statistical method, and their applications.
 
-### Daatset
+### Dataset
 
 The dataset contains Data job information in the UK in 2021. 
 Here is a link to the original dataset: https://www.kaggle.com/datasets/devario/uk-data-science-jobs-dataset
