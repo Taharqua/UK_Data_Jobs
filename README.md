@@ -1,6 +1,4 @@
-# UK Data Jobs
-
-## Data Analytics
+# Analysing the UK Data Job Market in 2021
 
 ![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/30689b8c-6de3-4a5a-8e4c-3a2000e3eebd)
 
@@ -75,23 +73,26 @@ Here are some of the visualations that I have been using during the process.
 ![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/c682730b-803e-45ed-aca1-6fb9be98feda)
 
 
-### Distribution and Correlation Exploration
+### Distribution Exploration
 
-Here are examples of using statistical methods to look at distribution of certain populations in my data and looking at the correlation of two factors using the knowledge of the distribution:
+A key component of the looking at factors which influence the pay rates is looking at the distribution of the data ensuring we are able to use the correct statistical methods to gain insight. This is extremely common when finding outliers and test for correlation as methods such as Grubbs' test for Outliers or Pearson's Correlation Coefficient work on the presumption of normailty, meaning if the data is not at a normal distribution, these methods are not applicable.
 
-<img width="889" alt="Screenshot 2023-10-20 at 20 52 52" src="https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/c18f0bf3-c657-4b39-a0fd-c4a689ac19dc">
+Here is an example of using statistical methods to look the distribution of a certain population in my data.
 
 <img width="870" alt="Screenshot 2023-10-20 at 20 53 55" src="https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/fe3f213a-9134-4051-9ede-5795e9409fa3">
 
-Hypothesis Testing
+### Hypothesis Testing
 
-The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
+Hypothesis Testing is a byproduct of Distribution Exploration as we need to know the distribution of our data to properly use the correct test.
 
-Null Hypothesis (H0): If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure.
-Alternate Hypothesis (H1): The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
+The null hypothesis of the test is that there is a correlation between the total number of skills required for the role and the salary. The alternate hypothesis (rejecting the null hypothesis) is that there isn't a correlation between the total number of skills required for the role and the salary.
 
-p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis, otherwise a p-value above the threshold suggests we fail to reject the null hypothesis ).
 
-p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+p-value > 0.05: There is no siginificance (H0).
+
+p-value <= 0.05: There is significance (H0)
+
+<img width="889" alt="Screenshot 2023-10-20 at 20 52 52" src="https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/c18f0bf3-c657-4b39-a0fd-c4a689ac19dc">
 
 To gain a full understanding, please read the entirity of my project
