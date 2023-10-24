@@ -69,7 +69,7 @@ df.drop(['reference','salary_currency','date_posted', 'date_ending','country','s
 Here are some of the visualations that I have been using during the process.
 
 ![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/528acef5-b464-442b-ba9b-901766fbacd4)
-![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/a7a92c4a-9cc6-4a45-a73b-2d19a1d9c98a)
+
 ![image](https://github.com/Taharqua/UK_Data_Jobs/assets/56850203/c682730b-803e-45ed-aca1-6fb9be98feda)
 
 
